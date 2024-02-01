@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    background-color: rgb(245, 236, 220);
+}
+
+.container {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.memeButton {
+    margin: 20px 0;
+    font-size: 25px;
+    padding: 15px 30px;
+    color: tomato;
+    background-color: transparent;
+    border: none;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.memeButton:hover {
+    padding: 10px 16px;
+    border-right: 8px solid black;
+    border-left: 8px solid black;
+    letter-spacing: 5px;
+
+}
+
+.memeImage img {
+    object-fit: cover;
+    height: 430px;
+    border: 3px solid black;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px rgb(5, 205, 205);
+    margin-bottom: 30px;
+}
+
+.memeAuthor {
+    font-size: 20px;
+    color: black;
+    border: 1px solid lightgray;
+}
